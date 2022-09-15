@@ -1,0 +1,27 @@
+{
+    "name": "Cookie Clearer",
+    "description": "Simple Cookie Clearer Plugin For Chrome!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "cookies",
+      "tabs",
+      "scripting"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/assets/cookie_clearer16.png",
+        "32": "/assets/cookie_clearer32.png",
+        "48": "/assets/cookie_clearer48.png",
+        "128": "/assets/cookie_clearer128.png"
+      }
+    },
+    "icons": {
+      "16": "/assets/cookie_clearer16.png",
+      "32": "/assets/cookie_clearer32.png",
+      "48": "/assets/cookie_clearer48.png",
+      "128": "/assets/cookie_clearer128.png"
+    }
+  }
